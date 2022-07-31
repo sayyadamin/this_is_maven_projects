@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[PAGE TITLE]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE]]>
+    </line>
+    <line>
+      <![CDATA[VALID USER ID]]>
+    </line>
+    <line>
+      <![CDATA[INVALID USER ID]]>
+    </line>
+    <line>
+      <![CDATA[VALID USER PASSWORD]]>
+    </line>
+    <line>
+      <![CDATA[INALID USER PASSWORD]]>
+    </line>
+    <line>
+      <![CDATA[Authorization ]]>
+    </line>
+    <line>
+      <![CDATA[VALID PIN]]>
+    </line>
+    <line>
+      <![CDATA[INVALID PIN]]>
+    </line>
+    <line>
+      <![CDATA[CONTINEU BTN WORKING]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26478" started-at="2022-07-31T12:02:53 IST" finished-at="2022-07-31T12:03:20 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26478" started-at="2022-07-31T12:02:53 IST" finished-at="2022-07-31T12:03:20 IST">
+      <class name="zerodhaTestapp.Zerodha">
+        <test-method status="PASS" signature="openUrl()[pri:-1, instance:zerodhaTestapp.Zerodha@e720b71]" name="openUrl" duration-ms="22084" started-at="2022-07-31T12:02:53 IST" finished-at="2022-07-31T12:03:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[PAGE TITLE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="login()[pri:0, instance:zerodhaTestapp.Zerodha@e720b71]" name="login" duration-ms="2227" started-at="2022-07-31T12:03:16 IST" finished-at="2022-07-31T12:03:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE]]>
+            </line>
+            <line>
+              <![CDATA[VALID USER ID]]>
+            </line>
+            <line>
+              <![CDATA[INVALID USER ID]]>
+            </line>
+            <line>
+              <![CDATA[VALID USER PASSWORD]]>
+            </line>
+            <line>
+              <![CDATA[INALID USER PASSWORD]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="authorization()[pri:1, instance:zerodhaTestapp.Zerodha@e720b71]" name="authorization" duration-ms="2134" started-at="2022-07-31T12:03:18 IST" finished-at="2022-07-31T12:03:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Authorization ]]>
+            </line>
+            <line>
+              <![CDATA[VALID PIN]]>
+            </line>
+            <line>
+              <![CDATA[INVALID PIN]]>
+            </line>
+            <line>
+              <![CDATA[CONTINEU BTN WORKING]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+      </class> <!-- zerodhaTestapp.Zerodha -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
